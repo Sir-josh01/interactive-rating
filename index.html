@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+     <div class="compound-display">
+      <div class="wrapper">
+        <div class="inner-wrapper">
+          <div class="star">
+            <img src="./images/icon-star.svg" class="star-icon" alt="star-icon" />
+          </div>
+          <h2 class="title">How did we do?</h2>
+          <div class="write-up">
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div class="number-box">
+            <button class="num" id="1">1</button>
+            <button class="num" id="2">2</button>
+            <button class="num" id="3">3</button>
+            <button class="num" id="4">4</button>
+            <button class="num" id="5">5</button>
+          </div>
+          <div class="submit-box">
+            <button class="btn">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Rating state end -->
+  
+      <!-- Thank you state start -->
+  
+      <div class="second-page">
+        <div class="sec-wrapper">
+          <div class="sec-inner-wrapper">
+            <div class="img-box">
+              <img
+                src="./images/illustration-thank-you.svg"
+                class="thanks-img"
+                alt="thank-you"
+              />
+            </div>
+            <div class="output">
+              <!-- you selected <span class="value"></span> out of 5 -->
+            </div>
+            <h2 class="sec-thanks">Thank you!</h2>
+            <div class="sec-write-up2">
+              <p class="p-1">We appreciate you taking the time to give a rating.</p>
+              <p class="p-2">If you ever need more support, don’t hesitate to</p>
+              <p class="p-3">get in touch!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+   
+
+    
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
