@@ -10,7 +10,6 @@ const buttons = document.querySelectorAll('.num');
         button.classList.remove('num-active');
 
         value = button.id;
-        console.log(value);
       })
     })
   })
